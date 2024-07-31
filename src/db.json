@@ -1,0 +1,187 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "shubham",
+      "email": "shubham@gmail.com",
+      "password": "Pass123$"
+    },
+    {
+      "id": 2,
+      "name": "darshan",
+      "email": "darshan@gmail.com",
+      "password": "Pass123$"
+    }
+  ],
+  "queries": [
+    {
+      "firstName": "shubham",
+      "lastName": "Khaire",
+      "email": "khaires750@gmail.com",
+      "message": "Farm To Fark",
+      "id": 1
+    }
+  ],
+  "orders": [
+    {
+      "firstName": "shubham",
+      "lastName": "Khaire",
+      "email": "shubham@gmail.com",
+      "mobileNo": 8080797112,
+      "address": "Nashik Maharashtra",
+      "products": [
+        {
+          "productId": 1,
+          "productName": "Apple",
+          "productPrice": 200,
+          "quantity": 1
+        },
+        {
+          "productId": 4,
+          "productName": "Strawberries",
+          "productPrice": 150,
+          "quantity": 1
+        }
+      ],
+      "total": 200,
+      "id": 1
+    },
+    {
+      "firstName": "shubham",
+      "lastName": "Khaire",
+      "email": "shubham@gmail.com",
+      "mobileNo": 8080797112,
+      "address": "Nashik, Maharashtra",
+      "products": [
+        {
+          "productId": 4,
+          "productName": "Strawberries",
+          "productPrice": 150,
+          "quantity": 1
+        }
+      ],
+      "total": 150,
+      "id": 2
+    },
+    {
+      "firstName": "Darshan",
+      "lastName": "Desale",
+      "email": "darshan@gmail.com",
+      "optionalEmail": "desale@gmil.com",
+      "mobileNo": 8080797112,
+      "address": "Gorane Satana",
+      "products": [
+        {
+          "productId": 3,
+          "productName": "Carrot",
+          "productPrice": 50,
+          "quantity": 1
+        },
+        {
+          "productId": 4,
+          "productName": "Strawberries",
+          "productPrice": 150,
+          "quantity": 1
+        }
+      ],
+      "total": 200,
+      "id": 3
+    },
+    {
+      "firstName": "asdf",
+      "lastName": "asd",
+      "email": "darshan@gmail.com",
+      "optionalEmail": "asdf@sdfasd",
+      "mobileNo": 8080797112,
+      "address": "Nashik Maharashtra",
+      "products": [
+        {
+          "productId": 3,
+          "productName": "Carrot",
+          "productPrice": 50,
+          "quantity": 1
+        },
+        {
+          "productId": 4,
+          "productName": "Strawberries",
+          "productPrice": 150,
+          "quantity": 1
+        }
+      ],
+      "total": 200,
+      "id": 4
+    },
+    {
+      "firstName": "asdf",
+      "lastName": "adfs",
+      "email": "darshan@gmail.com",
+      "optionalEmail": "afd@afasd",
+      "mobileNo": 8080797112,
+      "address": "asdflkjasd",
+      "products": [
+        {
+          "productId": 3,
+          "productName": "Carrot",
+          "productPrice": 50,
+          "quantity": 7
+        }
+      ],
+      "total": 350,
+      "id": 5
+    },
+    {
+      "firstName": "Krishna",
+      "lastName": "Jadhav",
+      "email": "darshan@gmail.com",
+      "optionalEmail": "krishna@gmail.com",
+      "mobileNo": 7832497834,
+      "address": "L13, Garware point",
+      "products": [
+        {
+          "productId": 2,
+          "productName": "Potatoes",
+          "productPrice": 30,
+          "quantity": 1
+        },
+        {
+          "productId": 9,
+          "productName": "Banana",
+          "productPrice": 40,
+          "quantity": 1
+        },
+        {
+          "productId": 4,
+          "productName": "Strawberries",
+          "productPrice": 300,
+          "quantity": 1
+        },
+        {
+          "productId": 3,
+          "productName": "Carrot",
+          "productPrice": 60,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "productName": "Apples",
+          "productPrice": 150,
+          "quantity": 1
+        },
+        {
+          "productId": 6,
+          "productName": "Peppers",
+          "productPrice": 80,
+          "quantity": 1
+        },
+        {
+          "productId": 7,
+          "productName": "Melon",
+          "productPrice": 100,
+          "quantity": 1
+        }
+      ],
+      "total": 760,
+      "id": 6
+    }
+  ]
+}

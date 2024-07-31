@@ -1,0 +1,105 @@
+:root {
+  --primary-color: #e7f0dc;
+  --secondary-color: gray;
+}
+
+.carousel-item img {
+  width: 100vw;
+  min-height: calc(100vh - 140px);
+}
+
+.carousel-item h5 {
+  color: var(--primary-color);
+  font-size: 42px;
+}
+
+.carousel-item p {
+  color: #f5efe6;
+  font-size: 22px;
+}
+
+.home-wrapper .home-info {
+  height: auto;
+  background: rgba(230, 228, 228, 0.616);
+  gap: 10px;
+}
+
+.home-info .home-info-item {
+  border: 1px solid rgba(128, 128, 128, 0.712);
+  border-radius: 5px;
+  gap: 10px;
+  background-color: #c2eec04d;
+}
+.home-info-item h3 {
+  background: url("../images/banner2.jpg") no-repeat bottom;
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.faq-section {
+  padding: 70px 65px;
+  min-height: 350px;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.faq-section .faq-image {
+  height: 455px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 4px;
+  background: url("../images/banner1.jpg");
+  background-position: top center;
+  background-size: cover;
+}
+.faq-section .accordion {
+  --bs-accordion-active-bg: #508d4ec7;
+  --bs-accordion-active-color: #000000c7;
+  outline: none;
+}
+
+.img-outer {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.contact-us-section {
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  height: auto;
+}
+
+.contact-us-section h2 {
+  color: #508d4e;
+}
+
+.contact-us-section .form-group {
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.contact-us-section .form-group textarea {
+  max-height: 60px;
+}
+
+.contact-info {
+  font-size: 18px;
+}
+
+iframe {
+  width: 35vw;
+  height: 250px;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
